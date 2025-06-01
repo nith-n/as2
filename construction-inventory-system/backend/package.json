@@ -1,0 +1,20 @@
+{
+  "name": "construction-inventory-system",
+  "version": "1.0.0",
+  "description": "Construction Inventory System for Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "setup": "node setup-db.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
